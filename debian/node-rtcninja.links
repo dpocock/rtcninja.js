@@ -1,0 +1,4 @@
+usr/share/javascript/rtcninja/Adapter.js usr/lib/nodejs/rtcninja/lib/Adapter.js
+usr/share/javascript/rtcninja/rtcninja.js usr/lib/nodejs/rtcninja/lib/rtcninja.js
+usr/share/javascript/rtcninja/RTCPeerConnection.js usr/lib/nodejs/rtcninja/lib/RTCPeerConnection.js
+usr/share/javascript/rtcninja/version.js usr/lib/nodejs/rtcninja/lib/version.js

@@ -1,0 +1,25 @@
+Source: rtcninjajs
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Daniel Pocock <daniel@pocock.pro>
+Build-Depends: debhelper (>= 9.0.0), node-uglify
+Standards-Version: 3.9.5
+Homepage: https://github.com/eface2face/rtcninja.js
+Vcs-Browser: https://github.com/dpocock/rtcninja.js
+Vcs-Git: https://github.com/dpocock/rtcninja.js
+
+Package: libjs-rtcninja
+Architecture: all
+Depends: ${misc:Depends}, libjs-bowser, libjs-merge
+Recommends: javascript-common
+Description: JavaScript abstraction layer for WebRTC API
+ Abstraction layer providing a consistent way to interact with the WebRTC
+ API in various web browsers.
+
+Package: node-rtcninja
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.6.19~dfsg1-3), libjs-rtcninja, node-bowser, node-merge, node-debug
+Description: JavaScript parser/writer for Session Description Protocol
+ A simple utility for parsing and writing strings using the
+ Session Description Protocol (SDP), commonly used for VoIP and WebRTC.
